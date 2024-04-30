@@ -6,7 +6,7 @@ In modern soccer, strategy and tactics significantly impact team success. In thi
 <figure>
   <p align="center">
     <img src="Soccer Team Trend.pdf" alt="Trulli" style="width:80%">
-    <figcaption align = "center">
+    <figcaption align = "center"><b>
   </p>
 </figure>
 
