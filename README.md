@@ -29,5 +29,8 @@ Fig(a) presents the confusion matrix based on count-based data, which reveals be
 ## Soccer Data.xlsx
 We collected data from various websites, including sports-reference(https://www.sports-reference.com/) covering 3652 games played by 98 teams throughout the season. The data that we focused on included aspects such as matchday, team name, opposing team, team formation, opponent formation, match result, home/away status, GF, GA, and team rank. Furthermore, to add depth to our analysis, we also used worldfootball(https://www.worldfootball.net/)to obtain real-time team rankings after each matchday.
 
+## Model parameters
+All analyses and model computations were performed using Python. The parameters set during training for each proximity are as follows: batch size = 128 and epochs = 10. We used the Adam optimizer with a dropout rate of P drop = 0.1 and a learning rate of 0.01. Dropout was applied to the output of each sub-layer, and L2 regularization (weight decay) of 0.001 was applied in the fully connected layers.
+
 <!---
 --->
