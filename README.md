@@ -3,7 +3,7 @@
 ## Abstract
 In modern soccer, strategy and tactics significantly impact team success. In this study, the application of these methodologies within the domain of association soccer is examined, with a particular focus on predicting team strategies via team trend analysis. Using a dataset comprising matches from the top five European soccer leagues, we analyzed team performance trends over time using the Elo rating system and rolling regression. Predicting strategies from soccer match datasets is a challenging. In our study, we propose methods based on count and rank to address these challenges.For the count-based method, the number of forwards, midfielders, and defenders is used to calculate respective defense and attack scores. For the rank-based method, teams are classified into various levels based on their rankings, and strategies are evaluated accordingly. This approach provides a more detailed perspective on strategic tendencies by considering team composition and performance at each level. Experimental results demonstrate the potential of our proposed methods to accurately identify and predict team strategies, offering significant implications for tactical decision-making in professional soccer. The findings indicate that the accuracy of predicting defensive strategies using count-based predictions was approximately 85\%, while the performance of predicting aggressive strategies through rank-based predictions was 89\%. Our methodology can be extended to the development of a predictive model aimed at forecasting team strategies, thereby assisting coaches with more effective preparation for upcoming matches.
 
-Fig illustrates these trends by using a rolling regression based on the Elo rating system. The figure depicts the Elo ratings and rolling regression trends for the four representative Serie A teams, highlighting the upswings (green dots) and downswings (red dots). 
+## Fig illustrates these trends by using a rolling regression based on the Elo rating system. The figure depicts the Elo ratings and rolling regression trends for the four representative Serie A teams, highlighting the upswings (green dots) and downswings (red dots). 
 
 <figure>
   <p align="center">
@@ -12,7 +12,7 @@ Fig illustrates these trends by using a rolling regression based on the Elo rati
   </p>
 </figure>
 
-Fig(a) presents the confusion matrix based on count-based data, which reveals better accuracy in predicting defensive strategies than offensive strategies. Conversely, Fig(b) presents the confusion matrix based on ranking-based data, indicating superior accuracy in forecasting offensive strategies compared with defensive strategies. Both methodologies exhibit distinctive advantages: one excels at predicting offensive strategies, whereas the other is proficient in forecasting defensive strategies, each with its inherent strengths and weaknesses.
+## Fig(a) presents the confusion matrix based on count-based data, which reveals better accuracy in predicting defensive strategies than offensive strategies. Conversely, Fig(b) presents the confusion matrix based on ranking-based data, indicating superior accuracy in forecasting offensive strategies compared with defensive strategies. Both methodologies exhibit distinctive advantages: one excels at predicting offensive strategies, whereas the other is proficient in forecasting defensive strategies, each with its inherent strengths and weaknesses.
 
 <figure>
   <p align="center">
