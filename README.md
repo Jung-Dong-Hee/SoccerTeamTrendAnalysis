@@ -10,6 +10,16 @@ In modern soccer, strategy and tactics significantly impact team success. In thi
   </p>
 </figure>
 
+Fig(a) presents the confusion matrix based on count-based data, which reveals better accuracy in predicting defensive strategies than offensive strategies. Conversely, Fig(b) presents the confusion matrix based on ranking-based data, indicating superior accuracy in forecasting offensive strategies compared with defensive strategies. Both methodologies exhibit distinctive advantages: one excels at predicting offensive strategies, whereas the other is proficient in forecasting defensive strategies, each with its inherent strengths and weaknesses.
+
+<figure>
+  <p align="center">
+    <img src="Confusion Matrix.png" alt="Trulli" style="width:80%">
+    <figcaption align = "center"></figcaption>
+  </p>
+</figure>
+
+
 ## Soccer Data.xlsx
 We collected data from various websites, including sports-reference(https://www.sports-reference.com/) covering 3652 games played by 98 teams throughout the season. The data that we focused on included aspects such as matchday, team name, opposing team, team formation, opponent formation, match result, home/away status, GF, GA, and team rank. Furthermore, to add depth to our analysis, we also used worldfootball(https://www.worldfootball.net/)to obtain real-time team rankings after each matchday.
 
