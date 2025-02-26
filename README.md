@@ -32,5 +32,6 @@ We collected data from various websites, including sports-reference(https://www.
 ## Model parameters
 All analyses and model computations were performed using Python. The parameters set during training for each proximity are as follows: batch size = 128 and epochs = 10. We used the Adam optimizer with a dropout rate of P drop = 0.1 and a learning rate of 0.01. Dropout was applied to the output of each sub-layer, and L2 regularization (weight decay) of 0.001 was applied in the fully connected layers.
 
+https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0318485
 <!---
 --->
